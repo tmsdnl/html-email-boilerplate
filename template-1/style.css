@@ -1,0 +1,69 @@
+/**
+ * Applied directly to elements.
+ * Keep descending selectors short.
+ */
+
+/**
+ * Global styles
+ */
+
+/* Default table styles */
+table {
+	border-collapse: collapse;
+	mso-table-lspace: 0pt;
+	mso-table-rspace: 0pt;
+}
+
+/* Default image styles */
+img {
+	outline: none;
+	text-decoration: none;
+	-ms-interpolation-mode: bicubic;
+}
+
+/* Prevents certain clients showing a blue border around an image */
+a img {
+	border: none;
+}
+
+/* Force image to be display as a block-level element */
+img.display-block {
+	display: block;
+}
+
+/* Completely hides the element */
+.hidden {
+	float: left;
+	max-height: 0;
+	display: none;
+	overflow: hidden;
+}
+
+/* Hides an element on desktop client and shows on mobile device */
+.mobile {
+	float: left;
+	max-height: 0;
+	display: none;
+	overflow: hidden;
+}
+
+/**
+ * Structure
+ */
+
+/* Email background colour */
+ body,
+.body {
+	background-color: #ffffff;
+}
+.body > table {
+	table-layout: fixed;
+}
+
+.wrapper {
+	background-image: url('background.jpg');
+}
+.container {
+	width: 600px;
+	min-width: 600px;
+}

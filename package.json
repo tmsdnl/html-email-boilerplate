@@ -1,0 +1,24 @@
+{
+  "name": "tenmarks_20150811",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-inline": "0.0.12",
+    "gulp-inline-css": "^2.0.0",
+    "gulp-inline-source": "^2.1.0",
+    "gulp-livereload": "^3.8.0",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-minify-inline": "^0.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomas Danilevicius <me@tmsdnl.com> (http://tmsdnl.com/)",
+  "license": "ISC"
+}
